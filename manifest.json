@@ -6,27 +6,26 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "Placeholder",
-  "start_url": "."
-  "icons": [
-	  {
+  "start_url": ".",
+  "icons":[
+    {
 		"src": "icons/app-icon-96-96.jpg",
 		"sizes": "96x96",
 		"type": "image/jpg"
-	  },
-	  {
+    },
+	{
 		"src": "icons/app-icon-144-144.jpg",
 		"sizes": "144x144",
 		"type": "image/jpg"
-	  },
-	  {
+	},
+	{
 		"src": "icons/app-icon-256-256.jpg",
 		"sizes": "256x256",
 		"type": "image/jpg"
-	  },
-	  {
+	},
+	{
 		"src": "icons/app-icon-512-512.jpg",
 		"sizes": "512x512",
 		"type": "image/jpg"
-	  }
-  ]
+	}]
 }
