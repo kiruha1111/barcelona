@@ -7,9 +7,8 @@ const assetUrls = [
 ]
 
 self.addEventListener('install', (event) => {
-    event.waitUntil(
-        caches.open(staticCacheName).then(cache => cache.addAll(assetUrls))
-    )
+    const cache = await caches.open(staticCacheName)
+    await cache.addAll(assetUrls)
 }) 
 
 self.addEventListener('activate', (event) => {
