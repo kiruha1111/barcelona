@@ -6,16 +6,16 @@ const assetUrls = [
     'css/style.css'
 ]
 
-self.addEventListener(type: 'install', listener: async event => {
+self.addEventListener('install', async event => {
     const cache = await caches.open(staticCacheName)
     await cache.addAll(assetUrls)
 }) 
 
-self.addEventListener(type: 'activate', listener: event => {
+self.addEventListener('activate', event => {
     console.log('[SW]: activate')
 })
 
-self.addEventListener(type: 'fetch', listener: event => {
+self.addEventListener('fetch', event => {
     console.log('Fetch', event.request.url)
     event.respondWith(cacheFirst(event.request))
 })
