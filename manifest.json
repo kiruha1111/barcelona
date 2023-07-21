@@ -6,6 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "start_url": ".",
+  "prefer_related_applications": "false",
   "icons":[
     {
 		"src": "icons/app-icon-96-96.png",
@@ -16,7 +17,7 @@
 		"src": "icons/app-icon-144-144.png",
 		"sizes": "144x144",
 		"type": "image/png",
-		"purpose": "any maskable"
+		"purpose": "maskable"
 	},
 	{
 		"src": "icons/app-icon-256-256.png",
