@@ -1,0 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header__background {
+    background-size: cover;
+    color: #FFFFFF;
+}

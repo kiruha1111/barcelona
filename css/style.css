@@ -1,0 +1,180 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    padding-top: 20px;
+    max-height: 500px;
+}
+
+.header__background {
+    background-image: url('../images/bg_campnou.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.header__display-flex {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__links {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.header__link {
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__title_font {
+    text-align: center;
+    padding-top: 177px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 51px;
+}
+
+.header__subtitle_font {
+    text-align: center; 
+    padding-top: 20px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+}
+
+.header__button_font {
+    margin-top: 31px;
+    margin-bottom: 157px;
+    padding: 12px 31px 12px 31px;
+    background: #DD783F;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.post__button {
+    margin: 20px 0 0 20px;
+    padding: 6px 9px 7px 9px;
+    background: #DD783F;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.links-after-header {
+	background: #000000;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-after-header__item {
+	padding-right: 91px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.body__section_backgroud {
+    background: #000000;
+    padding-bottom: 108px;
+}
+
+.title__font {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 16px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 525px;
+    height: 196px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.posts__display {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.post-left__background {
+    background-image: url('../images/match2.jpg');
+    background-repeat: no-repeat;
+}
+
+.post-right__background {
+    background-image: url('../images/match1.jpg');
+    background-repeat: no-repeat;
+}
+
+.mini-posts__display {
+    margin-top: 25px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.mini-post__imgage_size {
+    max-width: 339px;
+    max-height: 400px;
+    border-radius: 3px
+}
+
+.footer__after-form {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__link {
+    padding-left: 40px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+	padding-bottom: 20px;
+}
