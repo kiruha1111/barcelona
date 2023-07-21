@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "start_url": ".",
-  "prefer_related_applications": "false",
+  "prefer_related_applications": false,
   "icons":[
     {
 		"src": "icons/app-icon-96-96.png",
